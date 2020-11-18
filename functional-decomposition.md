@@ -19,5 +19,9 @@ You get a bag of chips from a vending machine.
     - Grab chips
     - Pull your arm out (with the chips)
 
+## Vending machine from the machine's perspective
 
-    (Tip: focus on steps, pick one way of doing things and break down the steps, doesn't have to be practical, just functional
+You vend a bag of chips to a human.
+    - 
+
+    (Tip: focus on steps, pick one way of doing things and break down the steps, doesn't have to be practical, just functional)
