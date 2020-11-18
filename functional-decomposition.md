@@ -140,8 +140,9 @@ Create an app that calculates the required size of your raw cookie dough balls b
 Pick the spoon up and clean it.
 - Pick the spoon up from the gravy
     - Use your dominant hand and take the spoon up from the gravy into the air
-    - Be careful not to get gravy on your own hands to prevent unecessary mess
+    - Be careful not to get gravy on your own hands to prevent unecessary mess.
         - Do so by minimizing the number of fingers you use to pick the spoon up
+        - If this fails, do not worry. You can clean your fingers later.
     - Do not drop the spoon back into the gravy or onto the table/floor
         - If you are sitting, keep the spoon suspended over the table to prevent gravy from dripping onto your pants
         - Else, still try to keep the spoon suspended over the table, though it is not as crucial in this case
@@ -149,14 +150,50 @@ Pick the spoon up and clean it.
     - If there is a tissue box/paper towel roll/napkin within your reach, take one tissue/paper towel/napkin.
     - Else, scan the room for an extra spoon.
             - If there is no extra spoon, set the dirty spoon back down into the gravy container with the handle resting on the container's rim. It is now someone else's problem.
-            - Else, if there is an extra spoon, exchange the dirty spoon for the clean one.
+            - Else, if there is an extra spoon, swap the dirty spoon for the clean one.
     - With your tissue/paper towel/napkin, carefully wipe the spoon clean from the gravy.
         - Avoid touching the gravy with your bare skin.
         - Wipe the gravy off from one end to the other and wrap the excess gravy in the tissue/paper towel/napkin to contain it.
+        - If you get gravy on your skin/hands, use a dry section of the tissue/paper towel/napkin to wipe it off
 
 ### How can you prevent this problem?
 
 Place and replace the spoon somewhere outside of the container.
+- Take a plate
+    - Paper plates, plastic plates, or even a simple napkin will do.
+- Put it beside the gravy container
+    - Ensure that the plate is right next to the container, closer than anything else on the table, so people know that it is associated with the gravy.
+- Designate the plate for the spoon when it is not in use.
+    - Place the spoon flat onto the plate.
+    - Ensure that the handle is facing the closest table edge so it is most accessible/easiest to use.
+- Instruct others who use the spoon to put the spoon back onto the plate when they're finished using it.
+    - Take masking tape
+    - Take a sharpie/marker
+    - Tape a piece of masking tape (about 4 inches) on the table right in front of the plate
+        - Ensure that it is facing the closest table edge so it is easy to read
+    - Write "SPOON" (in all caps for extra readability) on the tape with your sharpie/marker to inform users that the plate is designated for the spoon.
 
+### How can this problem be solved with a robotic system?
 
-    (Tip: focus on steps, pick one way of doing things and break down the steps, doesn't have to be practical, just functional)
+Program robotic arms to pick the spoon up, rinse it with water, and blow dry it.
+- Set up two robotic arms and the gravy next to sink.
+- Pick spoon up from gravy
+    - First robotic arm: grab spoon
+    - Lift spoon into the air
+        - Wait at least 10 seconds for the gravy on the spoon to stop dripping as much.
+    - Bring spoon over to the sink (suspended above it).
+    - Lower spoon into the lower region of the sink (to prevent making a mess from splashing)
+    - Predict where the water will fall and position spoon at that point.
+- Rinse spoon with water
+    - Second robotic arm: Turn the hot water tap on low to medium force.
+    - Let the spoon rinse under the water, stop after 10 seconds.
+        - First robotic arm: rotate spoon along the axis from the end of the handle to the other end.
+            - Repeat 360 degree rotations 8 times moderately slowly under the running water
+    - First robot arm: Lift spoon up out of sink.
+- Blow dry spoon
+    - Second robot arm: Dry spoon with strong fan/hair dryer
+            - Take fan/hair dryer
+            - Turn on fan/hair dryer
+            - Set settings to greatest strength and medium to low heat
+            - Dry for 10 seconds
+            - Turn dryer/fan off
