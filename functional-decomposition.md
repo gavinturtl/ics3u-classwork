@@ -21,7 +21,7 @@ You get a bag of chips from a vending machine.
     - Grab chips
     - Pull your arm out (with the chips)
 
-### Vending machine from the machine's perspective -
+### Vending machine from the machine's perspective
 
 You vend a bag of chips to a human.
 - Wait for human to put in money
@@ -110,6 +110,53 @@ Buy bigger glasses.
         - Thank the cashier
         - Say goodbye to the cashier
     
-    
+### How can this problem be solved with an app?
+
+Create an app that calculates the required size of your raw cookie dough balls before they go in the oven, based on the width/diameter of your glass and the specific recipe that you use.
+- Take the width/diameter of the glass
+    - Create a designated space for users to enter that measurement into
+    - Create a drop down menu next to that space that allows users to specify the unit of measurement used (cm, in, mm, etc.)
+- Take the specific recipe used to make the cookies, entering the specific amount of each ingredient as well as any instructions that affect the size/density/firmness of the dough (eg. how the dough is mixed, how long the dough is mixed, if the dough has been chilled, how long the dough has been chilled, etc.)
+    - Create a space where users can list the specific amounts of each ingredient in the recipe
+        - Default to three blank ingredients listed.
+        - Have an "add ingredient" option right below the list, so users can add any other ingredients.
+        - Also have an option for users to delete ingredients from the list.
+    - Next to each space, there should be drop down menus for specification.
+        - One drop down menu should allow users to specify the amount of the ingredient used in the recipe.
+        - Another should allow users to specify the type/variation of ingredient used in the recipe (eg. all purpose/pastry/whole wheat flour, medium/large eggs, soy/almond/dairy/rice milk, etc.)
+    - Create another space where users can list any instructions that affect the size/density/firmness of the dough
+        - There should be a space where the user can specify how the dough is mixed (eg. folded, beat, whisked, etc.)
+        - Another space where the user can specify how long the dough is mixed.
+        - Another space where the user can specify if/how long the dough is chilled.
+- Take all these variables into consideration and calculate the approximate dimensions of the dough balls that would melt/expand/flatten into an ideal size for your drinking glass.
+    - Calculate the required spherical dimensions of the ideal dough ball
+    - Include tips on how the cookie may be affect if the dough ball is not spherical (if it is flattened, shaped, etc.)
+
+
+## The spoon dropped into the gravy.
+
+### How do you fix this problem?
+
+Pick the spoon up and clean it.
+- Pick the spoon up from the gravy
+    - Use your dominant hand and take the spoon up from the gravy into the air
+    - Be careful not to get gravy on your own hands to prevent unecessary mess
+        - Do so by minimizing the number of fingers you use to pick the spoon up
+    - Do not drop the spoon back into the gravy or onto the table/floor
+        - If you are sitting, keep the spoon suspended over the table to prevent gravy from dripping onto your pants
+        - Else, still try to keep the spoon suspended over the table, though it is not as crucial in this case
+- Wipe the gravy off of the spoon.
+    - If there is a tissue box/paper towel roll/napkin within your reach, take one tissue/paper towel/napkin.
+    - Else, scan the room for an extra spoon.
+            - If there is no extra spoon, set the dirty spoon back down into the gravy container with the handle resting on the container's rim. It is now someone else's problem.
+            - Else, if there is an extra spoon, exchange the dirty spoon for the clean one.
+    - With your tissue/paper towel/napkin, carefully wipe the spoon clean from the gravy.
+        - Avoid touching the gravy with your bare skin.
+        - Wipe the gravy off from one end to the other and wrap the excess gravy in the tissue/paper towel/napkin to contain it.
+
+### How can you prevent this problem?
+
+Place and replace the spoon somewhere outside of the container.
+
 
     (Tip: focus on steps, pick one way of doing things and break down the steps, doesn't have to be practical, just functional)
