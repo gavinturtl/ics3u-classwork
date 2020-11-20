@@ -12,3 +12,10 @@ length = float(input("What is the length of the rectangular prism? "))
 width = float(input("What is the width? "))
 height = float(input("What is the height? "))
 print("The volume of the rectangular prism is", length * width * height, "units cubed.")
+
+# 4. Google Meet
+reply = input("Hey, do you just join the Google Meet and mute the teacher? ")
+if reply == "yes":
+    print("That's probably not a good idea.")
+if reply == "no":
+    print("Ok. Good.")
