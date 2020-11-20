@@ -4,9 +4,9 @@ print(f"Cool! My favourite colour is {colour} too!")
 print()
 
 # 2. Packs of Cans
-cansperpack = int(input("How many cans are there in one pack? "))
+cans_per_pack = int(input("How many cans are there in one pack? "))
 packs = int(input("How many packs are there? "))
-print("There are", cansperpack * packs, "cans in total.")
+print("There are", cans_per_pack * packs, "cans in total.")
 print()
 
 # 3. Volume of a Rectangular Prism
