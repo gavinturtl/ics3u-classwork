@@ -10,10 +10,10 @@ print("There are", cansperpack * packs, "cans in total.")
 print()
 
 # 3. Volume of a Rectangular Prism
-length = float(input("What is the length of the rectangular prism? "))
-width = float(input("What is the width? "))
-height = float(input("What is the height? "))
-print("The volume of the rectangular prism is", length * width * height, "units cubed.")
+length = float(input("What is the length of the rectangular prism in cm? "))
+width = float(input("What is the width in cm? "))
+height = float(input("What is the height in cm? "))
+print("The volume of the rectangular prism is", length * width * height, "cm cubed.")
 print()
 
 # 4. Google Meet
