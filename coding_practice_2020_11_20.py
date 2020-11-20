@@ -6,3 +6,9 @@ print(f"Cool! My favourite colour is {colour} too!")
 cansperpack = int(input("How many cans are there in one pack? "))
 packs = int(input("How many packs are there? "))
 print("There are", cansperpack * packs, "cans in total.")
+
+# 3. Volume of a Rectangular Prism
+length = int(input("What is the length of the rectangular prism? "))
+width = int(input("What is the width? "))
+height = int(input("What is the height? "))
+print("The volume of the rectangular prism is", length * width * height, "units cubed.")
