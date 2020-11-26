@@ -179,3 +179,51 @@ while True:
 
 
 ### CODINGBAT STRING-1 QUESTIONS
+
+
+# hello_name:
+def hello_name(name):
+  return "Hello {}!".format(name)
+
+# make_abba:
+def make_abba(a, b):
+  return a + b + b + a
+
+# make_tags:
+def make_tags(tag, word):
+  return "<{}>{}</{}>".format(tag, word, tag)
+
+# make_out_word:
+def make_out_word(out, word):
+  return "{}{}{}".format(out[0:2], word, out[2:5])
+
+# extra_end:
+def extra_end(str):
+  return "{}{}{}".format(str[-2:], str[-2:], str[-2:])
+
+# first_two:
+def first_two(str):
+  return str[0:2]
+
+# first_half:
+def first_half(str):
+  half = len(str) / 2
+  return str[0:half]
+
+# without_end:
+def without_end(str):
+  length = len(str)
+  return str[1:length - 1]
+
+# combo_string:
+def combo_string(a, b):
+  if len(a) < len(b):
+    return a + b + a
+  elif len(a) > len(b):
+    return b + a + b
+
+# non_start:
+def non_start(a, b):
+  length_a = len(a)
+  length_b = len(b)
+  return a[1:length_a] + b[1:length_b]
