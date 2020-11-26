@@ -1,0 +1,181 @@
+### PYTHON WORKBOOK IF STATEMENTS:
+
+# Exercise 34: Even or Odd?
+num = int(input("Enter any integer: "))
+print()
+
+if num % 2 == 1:
+    print(f"{num} is an odd integer.")
+else:
+    print(f"{num} is an even integer.")
+print()
+
+
+# Exercise 35: Dog Years
+human_years = float(input("Enter the number of human years: "))
+
+if human_years >= 0 and human_years <= 2:
+    print(f"Your dog is", human_years * 10.5, "years old in dog years.")
+elif human_years > 2:
+    print(f"Your dog is", (human_years - 2) * 4 + 21, "years old in dog years.")
+elif human_years < 0:
+    print("ERROR, NEGATIVE NUMBER IS INVALID.")
+print()
+
+
+# Exercise 36: Vowel or Consonant
+letter = input("Enter any letter of the alphabet: ")
+
+if letter == "a" or letter == "e" or letter == "i" or  letter == "o" or  letter == "u":
+    print(f"{letter} is a vowel.")
+elif letter == "y":
+    print(f"{letter} is sometimes a vowel, sometimes a consonant.")
+else:
+    print(f"{letter} is a consonant.")
+print()
+
+
+# Exercise 37: Name that Shape
+sides = int(input("To determine the shape, enter the number of sides: "))
+if sides == 3:
+    print("It's a triangle.")
+elif sides == 4:
+    print("It's a rectangle.")
+elif sides == 5:
+    print("It's a pentagon.")
+elif sides == 6:
+    print("It's a hexagon.")
+elif sides == 7:
+    print("It's a heptagon.")
+elif sides == 8:
+    print("It's an octagon.")
+elif sides == 9:
+    print("It's a nonagon.")
+elif sides == 10:
+    print("It's a decagon.")
+else:
+    print("ERROR, TOO MANY/LITTLE SIDES.")
+print()
+
+
+# Exercise 38: Month Name to Number of Days
+month = input("Enter the name of the month: ")
+
+if month == "April" or month == "June" or month == "September" or month == "November":
+    print("That month has 30 days in total.")
+elif month == "January" or month == "March" or month == "May" or month == "July" or month == "August" or month == "October" or month == "December":
+    print("That month has 31 days in total.")
+elif month == "February":
+    print("That month has 28 days in total, and 29 on leap years.")
+
+
+# Exercise 39:
+decibels = int(input("Enter the sound level in decibels: "))
+print()
+
+if decibels > 130:
+    print("That is louder than a jackhammer.")
+elif decibels == 130:
+    print("That is as loud as a jackhammer.")
+elif decibels < 130 and decibels > 106:
+    print("That is louder than a gas lawnmower but quieter than a jackhammer.")
+elif decibels == 106:
+    print("That is as loud as a gas lawnmower.")
+elif decibels < 106 and decibels > 70:
+    print("That is louder than an alarm clock but quieter than a gas lawnmower.")
+elif decibels == 70:
+    print("That is as loud as an alarm clock.")
+elif decibels < 70 and decibels > 40:
+    print("That is louder than a quiet room but quieter than an alarm clock.")
+elif decibels == 40:
+    print("That is as loud as a quiet room.")
+elif decibels < 40:
+    print("That is quieter than a quiet room.")
+print()
+
+# Exercise 40:
+length1 = int(input("Length of first side in cm: "))
+length2 = int(input("Length of second side in cm: "))
+length3 = int(input("Length of third side in cm: "))
+print()
+
+if length1 == length2 and length2 == length3:
+    print("That is an equilateral triangle.")
+elif length1 == length2 or length2 == length3 or length3 == length1:
+    print("That is an isoceles triangle.")
+else:
+    print("That is a scalene triangle.")
+print()
+
+# Exercise 41: Note to Frequency
+letter = input("Enter the note letter: ").upper()
+octave = int(input("Enter the note octave: "))
+print()
+
+if letter == "C":
+    print(f"The note's frequency is {261.63 / (2 ** (4 - octave))} Hz.")
+elif letter == "D":
+    print(f"The note's frequency is {293.66 / (2 ** (4 - octave))} Hz.")
+elif letter == "E":
+    print(f"The note's frequency is {329.63 / (2 ** (4 - octave))} Hz.")
+elif letter == "F":
+    print(f"The note's frequency is {349.23 / (2 ** (4 - octave))} Hz.")
+elif letter == "G":
+    print(f"The note's frequency is {292.00 / (2 ** (4 - octave))} Hz.")
+elif letter == "A":
+    print(f"The note's frequency is {440.00 / (2 ** (4 - octave))} Hz.")
+elif letter == "B":
+    print(f"The note's frequency is {493.88 / (2 ** (4 - octave))} Hz.")
+print()
+
+# Exercise 42: Frequency to Note
+frequency = float(input("Enter the note frequency: "))
+print()
+
+if frequency >= 260.63 and frequency <= 262.63:
+    print("C4")
+elif frequency >= 292.66 and frequency <= 294.66:
+    print("D4")
+elif frequency >= 328.63 and frequency <= 330.63:
+    print("E4")
+elif frequency >= 348.23 and frequency <= 350.23:
+    print("F4")
+elif frequency >= 391.00 and frequency <= 393.00:
+    print("G4")
+elif frequency >= 439.00 and frequency <= 441.00:
+    print("A4")
+elif frequency >= 492.88 and frequency <= 494.88:
+    print("B4")
+print()
+
+# Exercise 43: Faces on Money
+while True:
+    amount = int(input("Enter the amount of the bank note: $"))
+    
+    if amount == 1:
+        print("George Washington")
+        break
+    elif amount == 2:
+        print("Thomas Jefferson")
+        break
+    elif amount == 5:
+        print("Abraham Lincoln")
+        break
+    elif amount == 10:
+        print("Alexander Hamilton")
+        break
+    elif amount == 20:
+        print("Andrew Jackson")
+        break
+    elif amount == 50:
+        print("Ulysses S. Grant")
+        break
+    elif amount == 100:
+        print("Benjamin Franklin")
+        break
+    else:
+        print("ERROR, INVALID AMOUNT.")
+
+
+
+### CODINGBAT STRING-1 QUESTIONS
