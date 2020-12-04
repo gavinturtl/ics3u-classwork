@@ -9,11 +9,11 @@ def average_of_two(a: float, b: float) -> float:
     return (a + b) / 2
 # 4. 
 def largest_of_three(a: float, b: float, c: float) -> float:
-    if a > b and a > c:
+    if a >= b and a >= c:
         return a
-    if b > a and b > c:
+    elif b >= a and b >= c:
         return b
-    if c > a and c > b:
+    else:
         return c
 # 5.
 def first_two(string: str) -> str:
