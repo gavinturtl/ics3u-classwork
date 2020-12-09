@@ -107,8 +107,8 @@ def calc_attempts_remaining(attempts_allowed: int, incorrect: List[str]) -> int:
     Returns:
         How many remaining guesses the player has.
     """
-    remaining_attempts = attempts_allowed - len(incorrect)
-    return remaining_attempts
+    attempts_remaining = attempts_allowed - len(incorrect)
+    return attempts_remaining
 
 
 def word_reveal_message(word: str) -> str:
