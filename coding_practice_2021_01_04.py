@@ -20,13 +20,14 @@ if __name__ == "__main__":
 
 # Exercise 82:
 def main():
-    distance = float(input("Enter the distance travelled (km): "))
-    total_fare = calc_total_fare(distance)
+    kilometres = float(input("Enter the distance travelled (km): "))
+    metres = kilometres * 1000
+    total_fare = calc_total_fare(metres)
 
     print(f"The total fare is ${total_fare}.")
 
-def calc_total_fare(distance: float):
-    return 4 + ((distance / 140) * 0.25)
+def calc_total_fare(metres: float):
+    return 4 + ((metres / 140) * 0.25)
 
 if __name__ == "__main__":
     main()
