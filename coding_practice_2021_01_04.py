@@ -5,7 +5,9 @@ def main():
     side_1 = float(input("Enter the length of the first side: "))
     side_2 = float(input("Enter the length of the second side: "))
     
-    print(f"The length of the hypotenuse is: {calc_hypotenuse(side_1, side_2)} units.")
+    hypotenuse = calc_hypotenuse(side_1, side_2)
+
+    print(f"The length of the hypotenuse is: {hypotenuse} units.")
 
 
 def calc_hypotenuse(side_1: float, side_2: float):
@@ -15,25 +17,29 @@ def calc_hypotenuse(side_1: float, side_2: float):
 if __name__ == "__main__":
     main()
 
+
 # Exercise 82:
 def main():
     distance = float(input("Enter the distance travelled (km): "))
+    total_fare = calc_total_fare(distance)
 
-    print(f"The total fare is ${total_fare(distance)}.")
+    print(f"The total fare is ${total_fare}.")
 
-def total_fare(distance: float):
+def calc_total_fare(distance: float):
     return 4 + ((distance / 140) * 0.25)
 
 if __name__ == "__main__":
     main()
 
+
 # Exercise 83:
 def main():
     num_of_items = int(input("Enter the number of items ordered: "))
+    shipping_charge = calc_shipping_charge(num_of_items)
 
-    print(f"The shipping charge is: ${shipping_charge(num_of_items)}")
+    print(f"The shipping charge is: ${shipping_charge}")
 
-def shipping_charge(num_of_items: int):
+def calc_shipping_charge(num_of_items: int):
     if num_of_items < 1:
         return 0
     else:
@@ -42,13 +48,15 @@ def shipping_charge(num_of_items: int):
 if __name__ == "__main__":
     main()
 
+
 # Exercise 84:
 def main():
     a = float(input("Enter the first number: "))
     b = float(input("Enter the second number: "))
     c = float(input("Enter the third number: "))
+    median = median_three(a, b, c)
 
-    print(f"The median of the three numbers is: {median_three(a, b, c)}")
+    print(f"The median of the three numbers is: {median}")
 
 def median_three(a: float, b: float, c: float):
     if b < a and c > a or b > a and c < a:
@@ -65,12 +73,13 @@ if __name__ == "__main__":
 # Exercise 85:
 def main():
     int_range = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-
+    
     for i in int_range:
         integer = int_range[i - 1]
-        print(ordinal_num(integer))
+        ordinal_num = convert_int(integer)
+        print(ordinal_num)
 
-def ordinal_num(integer: int):
+def convert_int(integer: int):
     if integer < 1 or integer > 12:
         return ""
     else:
