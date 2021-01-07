@@ -60,12 +60,11 @@ def main():
     print(f"The median of the three numbers is: {median}")
 
 def median_three(a: float, b: float, c: float):
-    if b < a and c > a or b > a and c < a:
-        return a
-    elif a < b and c > b or a > b and c < b:
-        return b
-    else:
-        return c
+    greatest = max(a, b, c)
+    least = min(a, b, c)
+    total = greatest + least
+
+    return total // 2
 
 if __name__ == "__main__":
     main()
